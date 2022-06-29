@@ -1,0 +1,153 @@
+body{
+    background-color: #f1f2f6;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+ /* left side container */
+.container{
+    display:flex;
+}
+
+.container-left{
+    width: 30%;
+    height: 100%;
+    display: flex; 
+    margin-left: 15%;
+    background-color:white;
+     
+}
+.sub-container-left{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    display: flex; 
+    flex-direction:column;
+    justify-content:flex-start;
+    
+}
+.container-right{
+    width: 52%;
+    height: 100%;
+    margin-right: 15%;
+    background-color:white;
+}
+#img{
+    border-radius:50%;
+    height: 150px;
+    width: 165px;
+    align-items: center;
+}
+hr{
+    height:0.1px;
+    background-color:#303131 ;
+     
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills p{
+    background-color: #5f656c;
+    color: white;
+    padding:5px;
+    border-radius: 4px;
+    margin-right: 3%;
+   
+}
+.interests{
+    display: flex;
+    flex-wrap: wrap;
+}
+.interests p{
+    border: 2px solid #5f656c ;
+    color:  black;
+    padding:5px;
+    border-radius:5px;
+    font-weight: 600;
+     
+}
+
+
+/* right side container */
+
+.container-right{
+    display: flex;
+    flex-direction: column;
+}
+.name-container{
+    display: flex;
+    flex-direction: column; 
+    padding:15px;
+    background-color: #313d4b;
+    color:white;
+}
+.name-container hr{
+    height:0.3px;
+    background-color: white ;   
+    width:150px;
+    margin-right:75%;
+     
+}
+.sub-container-right{
+    display: flex;
+    flex-direction: column;
+}
+.sub-container-right hr{
+    height:0.3px;
+    background-color: #303131 ;   
+    width:95%;
+    margin-right:5%;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+       .container-left{
+        width: 95%;
+        height: 100%;
+        display: flex; 
+        margin-left: 0%;
+        background-color:white;
+        margin: auto;
+       }
+       .container-right{
+        width: 95%;
+        height: 100%;
+        margin-right:0%;
+        background-color:white;
+        margin: auto;
+       }
+       .container{
+        display:flex;
+        flex-direction: column;
+       }
+       .font-size{
+           font-size: 19px;
+       }
+}
+@media screen and (max-width:900px) {
+
+    .container-left{
+     width: 95%;
+     height: 100%;
+     display: flex; 
+     margin-left: 0%;
+     background-color:white;
+     margin: auto;
+    }
+    .container-right{
+     width: 95%;
+     height: 100%;
+     margin-right:0%;
+     background-color:white;
+     margin: auto;
+    }
+    .container{
+     display:flex;
+     flex-direction: column;
+    }
+}
